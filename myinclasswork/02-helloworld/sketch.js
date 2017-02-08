@@ -4,6 +4,7 @@ function setup() {
 
     fill(5, 26, 134);
     stroke(0, 255, 0);
+    strokeWeight(6);
     ellipse(250, 250, 40, 40);
 }
 
