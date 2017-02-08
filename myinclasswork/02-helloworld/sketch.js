@@ -6,6 +6,8 @@ function setup() {
     stroke(0, 255, 0);
     strokeWeight(6);
     ellipse(250, 250, 40, 40);
+
+
 }
 
 function draw() {
