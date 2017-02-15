@@ -3,6 +3,12 @@ function setup() {
   background(0,0,250)
 
   push();
+  translate(0, 55)
+  fill(245,205,95)
+  triangle(350,25,300,200,400,200)
+  pop();
+
+  push();
   translate(300,100)
   ellipse(50,50,200,200)
   pop();
@@ -76,7 +82,7 @@ function setup() {
   line(390,152,390,173)
   pop();
 
-  
+
 
 
 
