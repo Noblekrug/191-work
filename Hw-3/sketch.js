@@ -13,6 +13,12 @@ function setup() {
   ellipse(50,50,200,200)
   pop();
 
+  push();
+  translate(0,55)
+  fill(25,186,13)
+  triangle(350, 400, 300, 200, 400, 200)
+  pop();
+
 
   push();
   fill(245,205,95)
