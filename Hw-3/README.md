@@ -9,4 +9,4 @@
 
 ## Screen Shot
 
-  ![https://noblekrug.github.io/191-work/Hw-3]
+  !(https://noblekrug.github.io/191-work/Hw-3)
