@@ -6,3 +6,7 @@
 
   Here is the link to my live sketch
   https://noblekrug.github.io/191-work/H2-3
+
+## Screen Shot
+
+  ![https://noblekrug.github.io/191-work/Hw-3]
