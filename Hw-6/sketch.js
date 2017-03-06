@@ -6,12 +6,12 @@ var d = 50;
 
 var state = false;
 
-
+var fr = 15;
 
 function setup() {
 
   createCanvas(1000, 500);
-
+  frameRate(fr);
 }
 
 
@@ -24,21 +24,27 @@ function draw() {
 
     background(10,0,0,10);
 
+    push();
+    fill(67,250,201);
+    frameRate;
+    ellipse(random(0, width), random(0, height), 1, 6);
+    pop();
 
-
+    push();
     fill(255,255,255);
-
+    frameRate;
     ellipse(random(0, width), random(0, height), 3, 3);
+    pop();
 
-
-
+    push;
     fill(255,235,54);
-
+    frameRate;
     ellipse(random(0, width), random(0, height), 5, 2);
+    pop;
 
     push;
     textSize(50);
-    text("Night Time",385,400);
+    text("Good Night",375,400);
     pop;
 
 
@@ -48,7 +54,7 @@ function draw() {
     background(245,116,69);
 
     textSize(50);
-    text("Day Time",400,100)
+    text("Good Evening",350,100)
   }
 
   ellipse(x, y, d, d);
