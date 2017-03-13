@@ -26,7 +26,7 @@ function draw() {
     console.log(this.eye_x,this.eye_y,this.eye_size);
     push();
 
-    translate(loc_x,loc_y);
+    translate(loc_x,loc_y); 
     fill(body_color);
 
     ellipse(0,0,size_w,size_h);
