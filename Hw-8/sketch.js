@@ -12,7 +12,7 @@ for (var i = 0; i  < 500; i++){
 
 function draw() {
 background(255);
-for (var i = 0; i  < 500; i++){
+for (var i = 0; i < 500; i++){
   dagraphics[i].move();
   dagraphics[i].display();
 }

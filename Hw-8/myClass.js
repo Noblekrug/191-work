@@ -22,8 +22,14 @@ function DaGraphics() {
       if (this.x <= 0 - this.size){
         this.x = width + this.size;
       }
+      this.size = this.size + this.speed;
+      if (this.size > windowWidth || this.size < 0)  {
+     this.speed = -this.speed;
+      }
 
 
     };
+
+
 
 }
