@@ -24,7 +24,7 @@ function DaGraphics() {
       }
       this.size = this.size + this.speed;
       if (this.size > windowWidth || this.size < 0)  {
-     this.speed = -this.speed;
+      this.speed = -this.speed;
       }
 
 
