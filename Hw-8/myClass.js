@@ -22,7 +22,7 @@ function DaGraphics() {
       if (this.x <= 0 - this.size){
         this.x = width + this.size;
       }
-    
+     
 
 
     };
